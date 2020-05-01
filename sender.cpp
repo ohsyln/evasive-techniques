@@ -20,7 +20,7 @@ int main()
     for (int i = 0; i < 32365; i++)
         s += "A";
     s += "SECRET";
-    s = "eater.exe " + s;
+    s = "receiver.exe " + s;
     std::wstring stemp = s2ws(s);
 
     STARTUPINFO info = { sizeof(info) };
